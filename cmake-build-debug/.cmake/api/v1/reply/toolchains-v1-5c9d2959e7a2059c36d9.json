@@ -1,0 +1,129 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/MinGW/lib/gcc/mingw32/4.7.1/include",
+						"D:/MinGW/include",
+						"D:/MinGW/lib/gcc/mingw32/4.7.1/include-fixed"
+					],
+					"linkDirectories" : 
+					[
+						"D:/MinGW/lib/gcc/mingw32/4.7.1",
+						"D:/MinGW/lib/gcc",
+						"D:/MinGW/mingw32/lib",
+						"D:/MinGW/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "D:/MinGW/bin/gcc.exe",
+				"version" : "4.7.1"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"D:/MinGW/lib/gcc/mingw32/4.7.1/include/c++",
+						"D:/MinGW/lib/gcc/mingw32/4.7.1/include/c++/mingw32",
+						"D:/MinGW/lib/gcc/mingw32/4.7.1/include/c++/backward",
+						"D:/MinGW/lib/gcc/mingw32/4.7.1/include",
+						"D:/MinGW/include",
+						"D:/MinGW/lib/gcc/mingw32/4.7.1/include-fixed"
+					],
+					"linkDirectories" : 
+					[
+						"D:/MinGW/lib/gcc/mingw32/4.7.1",
+						"D:/MinGW/lib/gcc",
+						"D:/MinGW/mingw32/lib",
+						"D:/MinGW/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"D:/MinGW/lib/gcc/mingw32/4.7.1/libstdc++.a",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "D:/MinGW/bin/c++.exe",
+				"version" : "4.7.1"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "D:/MinGW/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

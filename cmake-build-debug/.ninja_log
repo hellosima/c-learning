@@ -1,0 +1,8 @@
+# ninja log v5
+7	131	7110308333803040	CMakeFiles/c_learning.dir/C_Primer_Plus_6/02/first.c.obj	aefa76a43e4d4ad8
+118	228	7110317553522788	c_learning.exe	b93ac6c6bfda5972
+12	118	7110317552448331	CMakeFiles/c_learning.dir/C_Primer_Plus_6/02/2.11_practice.c.obj	40777a18578220e3
+1	145	7113520916857709	build.ninja	f80331f42c742a1e
+1	645	7113524152674549	CMakeFiles/c_learning.dir/C_Primer_Plus_6/03/practice.c.obj	12fdd71d0241901c
+6	651	7113524152754220	CMakeFiles/c_learning.dir/C_Primer_Plus_6/02/2.11_practice.c.obj	40777a18578220e3
+651	1466	7113524160762736	c_learning.exe	ec80789073fd16d4
